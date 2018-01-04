@@ -3,7 +3,7 @@
 *
 * About us extension for the phpBB Forum Software package.
 * [Brazilian Portuguese [pt_br]]
-* Brazilian Portuguese translation by null2 (c) 2017 [ver 2.1.2] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by null2 and update by eunaumtenhoid (c) 2017 [ver 2.1.2] (https://github.com/phpBBTraducoes)
 * @copyright (c) 2014-2015 Crizzo <http://www.crizzo.de>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
@@ -40,17 +40,17 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ABOUTUS'						=> 'Sobre nós',
-	'ABOUTUS_SETTINGS'				=> 'Configurações',
-	'ABOUTUS_UPDATED'				=> 'Sobre nós atualizado com sucesso.',
+	'ABOUTUS_SETTINGS'				=> 'Configurações do Sobre nós',
+	'ABOUTUS_UPDATED'				=> 'Sobre nós foi atualizado com sucesso.',
 	'ABOUTUS_AND'					=> 'e',
 
-	'ACP_ABOUTUS_ENABLE'			=> 'Habilitar Sobre nós',
-	'ACP_ABOUTUS_ENABLE_EXPLAIN'	=> 'Se a extensão for desabilitada, o fórum não mostrará um link para a página Sobre nós. No entanto, o link direto “app.php/aboutus” funcionará.',
+	'ACP_ABOUTUS_ENABLE'			=> 'Ativar Sobre nós',
+	'ACP_ABOUTUS_ENABLE_EXPLAIN'	=> 'Se a página "Sobre nós" estiver desativada, seu fórum não mostrará um link no rodapé para a página "Sobre nós". No entanto, com a URL "app.php/aboutus", você pode visitar a página "Sobre nós".',
 	'ACP_ABOUTUS_INFO'				=> 'Texto Sobre nós',
-	'ACP_ABOUTUS_INFO_EXPLAIN'		=> 'Edite o texto que será mostrado na página Sobre nós.',
+	'ACP_ABOUTUS_INFO_EXPLAIN'		=> 'Você pode editar o texto que é exibido na página "Sobre nós".',
 	'ACP_ABOUTUS_INFO_PREVIEW'		=> 'Prever Sobre nós',
 	'ACP_ABOUTUS_SETTINGS'			=> 'Configurações Sobre nós',
-	'ACP_ABOUTUS_SETTINGS_EXPLAIN'	=> 'Defina o texto e habilite/desabilite a página Sobre nós.',
+	'ACP_ABOUTUS_SETTINGS_EXPLAIN'	=> 'Aqui você pode definir o texto da página "Sobre nós" e ativar ou desativar a página "Sobre nós".',
 
 	'ACP_TERMS_OF_USE_ENABLE' 			=> 'Mostrar termos de uso',
 	'ACP_TERMS_OF_USE_ENABLE_EXPLAIN'	=> 'Mostra um link para os termos de uso na página Sobre nós.',
@@ -61,5 +61,5 @@ $lang = array_merge($lang, array(
 	'DESCRIPTION_TERMS_OF_USE'		=> 'Você pode ver os termos de uso aqui:',
 	'DESCRIPTION_PRIVACY_TERMS_OF_USE'=> 'Você pode ver os termos de uso e as políticas de privacidade aqui:',
 
-	'VIEWONLINE_ABOUTUS'	=> 'Vendo Sobre nós',
+	'VIEWONLINE_ABOUTUS'	=> 'Visualizando Sobre nós',
 ));
