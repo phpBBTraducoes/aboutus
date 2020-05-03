@@ -2,9 +2,9 @@
 /**
 *
 * About us extension for the phpBB Forum Software package.
-* [Brazilian Portuguese [pt_br]]
-* Brazilian Portuguese translation by null2 and update by eunaumtenhoid [2017][ver 2.1.2] (https://github.com/phpBBTraducoes)
-* @copyright (c) 2014-2017 Crizzo <http://www.crizzo.de>
+* Brazilian Portuguese [pt_br]
+* Brazilian Portuguese translation by null2 and update by eunaumtenhoid [2019][ver 2.1.3] (https://github.com/phpBBTraducoes)
+* @copyright (c) 2014-2017 Crizzo <https://www.crizzo.de>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
@@ -56,6 +56,9 @@ $lang = array_merge($lang, array(
 	'ACP_TERMS_OF_USE_ENABLE_EXPLAIN'	=> 'Mostra um link para os termos de uso na página Sobre nós.',
 	'ACP_PRIVACY_ENABLE' 				=> 'Mostrar políticas de privacidade',
 	'ACP_PRIVACY_ENABLE_EXPLAIN'		=> 'Mostra um link para a políticas de privacidade na página Sobre nós.',
+	
+	'ACP_META_NOINDEX_ENABLE'			=> 'Meta noindex',
+	'ACP_META_NOINDEX_ENABLE_EXPLAIN'	=> 'Diz aos robôs dos mecanismos de pesquisa que eles não devem indexar a página "Sobre nós". Esta opção não impedirá que os robôs indexem a página "Sobre nós" de qualquer maneira!',
 
 	'DESCRIPTION_PRIVACY'			=> 'Você pode ver as políticas de privacidade aqui:',
 	'DESCRIPTION_TERMS_OF_USE'		=> 'Você pode ver os termos de uso aqui:',
